@@ -15,6 +15,6 @@ pip install colorama builtwith
 ```
 
 ## Social
-- Github: https://github.com/c0mmand5r
-- Telegram: https://t.me/c0mmand5r
-- Instagram: https://instagram.com/command5r
+- <a href="https://github.com/c0mmand5r">Github</a>
+- <a href="https://t.me/c0mmand5r">Telegram</a>
+- <a href="https://instagram.com/command5r">Instagram</a>
