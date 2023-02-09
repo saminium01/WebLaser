@@ -12,7 +12,7 @@ and more...
 ## Usage
 Just run the script; requirements will be install automatically!
 
-If you have problems with the oven automatic installation:
+If you have any problem with the automatic installation:
 ```
 pip install colorama builtwith
 ```
