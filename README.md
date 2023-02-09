@@ -18,3 +18,4 @@ pip install colorama builtwith
 - <a href="https://github.com/c0mmand5r">Github</a>
 - <a href="https://t.me/c0mmand5r">Telegram</a>
 - <a href="https://instagram.com/command5r">Instagram</a>
+- <a href="https://twitter.com/c0mmand5r">Twitter</a>
