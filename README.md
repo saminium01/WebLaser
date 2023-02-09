@@ -1,11 +1,13 @@
 # WebLaser
 This is a simple script writted with Python 3 for get some information like:
-```
+
 1- Web Server
+
 2- CMS
+
 3- Programming Language
+
 and more...
-```
 
 ## Usage
 Just run the script; requirements will be install automatically!
