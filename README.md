@@ -14,7 +14,7 @@ Just run the script; requirements will be install automatically!
 
 If you have any problem with the automatic installation:
 ```
-pip install colorama builtwith
+pip install -r requirements.txt
 ```
 
 ## Social
