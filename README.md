@@ -18,7 +18,5 @@ pip install -r requirements.txt
 ```
 
 ## Social
-- <a href="https://github.com/c0mmand5r">Github</a>
-- <a href="https://t.me/c0mmand5r">Telegram</a>
-- <a href="https://instagram.com/command5r">Instagram</a>
-- <a href="https://twitter.com/c0mmand5r">Twitter</a>
+Follow my github
+- <a href="https://github.com/saminium01">Github</a>
