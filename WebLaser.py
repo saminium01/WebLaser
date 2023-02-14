@@ -30,7 +30,7 @@ banner = f"""{BLUE}
 | | /| / / _ \/ __ \/ /   / __ `/ ___/ _ \/ ___/
 | |/ |/ /  __/ /_/ / /___/ /_/ (__  )  __/ /
 |__/|__/\___/_.___/_____/\__,_/____/\___/_/
-{YELLOW}                                  Author: C0mmand5r
+{YELLOW}                                  Author: Saminium01
 
 """
 print(banner)
