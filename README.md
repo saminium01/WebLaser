@@ -12,6 +12,10 @@ This is a simple script writted with Python 3 for get some information like:
 and more...
 
 ## Usage
+```
+python WebLaser.py www.example.com
+```
+
 Just run the script; requirements will be install automatically!
 
 If you have any problem with the automatic installation:
