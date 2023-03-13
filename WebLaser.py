@@ -1,53 +1,48 @@
 import os
-from sys import platform
+import sys
 
-try:
-    import colorama, builtwith
-except:
-    os.system('pip install colorama builtwith')
+def install():
+    try:
+        import colorama, builtwith, requests
+    except:
+        os.system('pip install colorama builtwith requests')
+
+install()
+
 from colorama import Fore
 from builtwith import builtwith
 
-BLUE = Fore.BLUE
 YELLOW = Fore.YELLOW
-WHITE = Fore.WHITE
-GREEN = Fore.GREEN
+CYAN = Fore.CYAN
 RED = Fore.RED
+GREEN = Fore.LIGHTGREEN_EX
+WHITE = Fore.WHITE
 RESET = Fore.RESET
 
-def clear():
-    if platform == 'win32':
-        os.system('cls && title WebLaser')
-    elif platform == 'linux' or platform == 'linux2':
-        os.system('clear')
-    else:
-        pass
-clear()
-
-banner = f"""{BLUE}
+banner = f'''{CYAN}
  _       __     __    __
 | |     / /__  / /_  / /   ____ _________  _____
 | | /| / / _ \/ __ \/ /   / __ `/ ___/ _ \/ ___/
 | |/ |/ /  __/ /_/ / /___/ /_/ (__  )  __/ /
 |__/|__/\___/_.___/_____/\__,_/____/\___/_/
-{YELLOW}                                  Author: Saminium01
-
-"""
+{YELLOW}                        Author: Saminium01
+'''
 print(banner)
 
-target = input(f" {RED}[ + ]{WHITE} Enter your target:: ")
+try:
+    domain = sys.argv[1]
+except:
+    print(f"\t\n {WHITE} Usage: python WebLaser.py www.example.com \n")
+    sys.exit()
 
-print()
+try:
+    res = builtwith(f"http://{domain}")
+except KeyboardInterrupt:
+    print(f"{RED}\n Process Interruted!")
 
-if target.startswith('http://') or target.startswith('https://'):
-    res = builtwith(target)
-else:
-    res = builtwith("http://" + target)
-
-
-print(BLUE + "Results:")
-
+print(f"{GREEN} Results:")
 for i in res:
     print(f"{GREEN} {i}", res[i])
 
-print("\n" + RESET)
+print(f"\n {RESET}")
+sys.exit()
