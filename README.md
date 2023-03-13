@@ -1,5 +1,5 @@
 # WebLaser
-<img src="screenshot.png">
+<img src="Screenshot.png" alt="Screenshot">
 
 This is a simple script writted with Python 3 for get some information like:
 
